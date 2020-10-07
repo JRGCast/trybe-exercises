@@ -1,4 +1,6 @@
 let pessoaEstudante = "João";
-let habilidadesPessoaEstudante = 10;
-//Eu sou Tryber e...
-console.log("sucesso")
+javascript-changes
+let hasbilidadesPessoaEstudante = 10;
+//"Vou ter muito sucesso na programação!"
+console.log("sucesso");
+master
