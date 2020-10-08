@@ -1,1 +1,1 @@
-Este é o meu repositório do curso da TRYBE, em que me tornarei um programador full-stack.
+Este é o meu repositório do curso da TRYBE, que me tornará um programador full-stack.
