@@ -1,0 +1,48 @@
+body {
+        background-color: darkgrey;
+    font-size: 16px;
+    font-style: oblique;
+    text-align: justify;
+  }
+  
+  h1 {
+  font-size: 65px;
+  font-family: sans-serif;
+  color: orange;
+  text-align: center;
+  }
+  
+  p {
+   font-size: 3em;
+   font-weight: 600;
+    }
+
+   #lineOne{
+    background-color: yellow;
+    color: yellowgreen;
+    }
+   
+   #lineTwo{
+    background-color: red;
+    color: black
+   }
+   
+   #lineThree{
+    background-color: brown;
+    color: burlywood;
+   }
+  
+  .changeSameTime{
+        background-color: green;
+        text-decoration: underline;
+        text-align: center;
+        color: blue
+        
+  }
+  
+  #un-list{
+        background-color: white;
+       
+  } 
+  
+  
