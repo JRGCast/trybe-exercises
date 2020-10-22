@@ -18,6 +18,8 @@ body {
     opacity: 1;
 }
 
-.navigation{
+.navigation li{
     display: inline-block;
+    margin: 10px 20px; 
+    text-align: right;
 }
