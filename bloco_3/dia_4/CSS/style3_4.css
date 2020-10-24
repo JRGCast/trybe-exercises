@@ -1,0 +1,25 @@
+/* Fiz essa primeira parte do html {} com total ajuda do https://css-tricks.com/perfect-full-page-background-image/ */
+html{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS2Z9qIO835vjNosAmTslUZj125AU0bpfS1rg&usqp=CAU) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.5;
+    
+}
+
+body {
+    color: blue;
+}
+
+.header, .header-subtitle{
+    text-align: center;
+    opacity: 1;
+}
+
+.navigation li{
+    display: inline-block;
+    margin: 10px 20px; 
+    text-align: right;
+}
