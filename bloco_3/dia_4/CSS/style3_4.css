@@ -1,25 +1,32 @@
-/* Fiz essa primeira parte do html {} com total ajuda do https://css-tricks.com/perfect-full-page-background-image/ */
-html{
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS2Z9qIO835vjNosAmTslUZj125AU0bpfS1rg&usqp=CAU) no-repeat center center fixed; 
+/* Fiz essa primeira parte do html {} com total ajuda do https://css-tricks.com/perfect-full-page-background-image/, porém troquei o local indicado lá (dentro da tag html, para uma classe */
+
+/*.background-img {
+    background: no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     opacity: 0.5;
     
-}
+} Não deu certo. Abandonei a ideia pois tenho que adiantar mt conteúdo, e ainda tem o projeto */
 
 body {
     color: blue;
+    background-color: aquamarine;
+    font-weight: 700;
 }
 
 .header, .header-subtitle{
     text-align: center;
-    opacity: 1;
 }
 
-.navigation li{
-    display: inline-block;
+.navigation {
+text-align: center;
+border: 1px solid black;
+text-decoration: none;
+}
+
+.navigation li {
+    display: inline;
     margin: 10px 20px; 
-    text-align: right;
 }
