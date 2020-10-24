@@ -1,4 +1,4 @@
-let notaColocada = "-5";
+let notaColocada = "azul";
 let nota = Number(notaColocada);
 
 console.log(nota)
