@@ -1,6 +1,6 @@
-# Exercícios:
+## Exercícios:
 
-## Parte I - Criação de arquivos e diretórios
+### Parte I - Criação de arquivos e diretórios
 <b>Dica</b>: Para criação de arquivos vazios você pode utilizar o comando touch nome-do-arquivo.extensao.
 1. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado unix_tests e navegue até ele.
 
@@ -32,22 +32,22 @@ SQL
 15. Mostre na tela as 4 últimas skills do arquivo skills.txt.
 16. Apague todos os arquivos que terminem em .txt.
 
-## Parte II - Manipulação & Busca
-Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
-Copiar
+### Parte II - Manipulação & Busca
+1. Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
 
 curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
-Mostre todo o conteúdo do arquivo countries.txt na tela.
-Mostre o conteúdo de countries.txt, página por página, até encontra a Zambia.
-Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
-Busque por Brazil no countries.txt.
-Busque novamente por brazil, mas agora utilizando o lower case.
-Para os próximos exercícios, crie um novo arquivo chamado phrases.txt e adicione algumas frases a sua escolha. Não precisa criar o arquivo pelo terminal.
-Busque pelas frases que não contenham a palavra fox.
-Conte o número de palavras do arquivo phrases.txt.
-Conte o número de linhas do arquivo phrases.txt.
-Crie os arquivos empty.tbt e empty.pdf.
-Liste todos os arquivos do diretório unix_tests.
-Liste todos os arquivos que terminem com txt.
-Liste todos os arquivos que terminem com tbt ou txt.
-Acesse o manual do comando ls.
+
+2. Mostre todo o conteúdo do arquivo countries.txt na tela.
+3. Mostre o conteúdo de countries.txt, página por página, até encontra a Zambia.
+4. Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
+5. Busque por Brazil no countries.txt.
+6. Busque novamente por brazil, mas agora utilizando o lower case.
+7. Para os próximos exercícios, crie um novo arquivo chamado phrases.txt e adicione algumas frases a sua escolha. Não 8. precisa criar o arquivo pelo terminal.
+9. Busque pelas frases que não contenham a palavra fox.
+10. Conte o número de palavras do arquivo phrases.txt.
+11. Conte o número de linhas do arquivo phrases.txt.
+12. Crie os arquivos empty.tbt e empty.pdf.
+13. Liste todos os arquivos do diretório unix_tests.
+14. Liste todos os arquivos que terminem com txt.
+15. Liste todos os arquivos que terminem com tbt ou txt.
+16. Acesse o manual do comando ls.
