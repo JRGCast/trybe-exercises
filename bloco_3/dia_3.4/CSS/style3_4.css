@@ -1,0 +1,32 @@
+/* Fiz essa primeira parte do html {} com total ajuda do https://css-tricks.com/perfect-full-page-background-image/, porém troquei o local indicado lá (dentro da tag html, para uma classe */
+
+/*.background-img {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.5;
+    
+} Não deu certo. Abandonei a ideia pois tenho que adiantar mt conteúdo, e ainda tem o projeto */
+
+body {
+    color: blue;
+    background-color: aquamarine;
+    font-weight: 700;
+}
+
+.header, .header-subtitle{
+    text-align: center;
+}
+
+.navigation {
+text-align: center;
+border: 1px solid black;
+text-decoration: none;
+}
+
+.navigation li {
+    display: inline;
+    margin: 10px 20px; 
+}
