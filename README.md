@@ -12,7 +12,7 @@ _"Trybe is a futuristic school for everyone who wants to build a sucessful caree
 
 The program counts with more than 1.500 of in-class and online class hours, abording introduction, front-end, back-end, computing cience, software enginniring, agile and soft skills. (verificar traduções melhores) ------- O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciêcia da computação, engenharia de software, metodologias ágeis e habilidades comportamentais. -->
 
-## Fundamentos doDesenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 ##### Bloco 1: Introdução - Unix & Shell 
 
