@@ -1,8 +1,0 @@
-#!/bin/bash
-
-read 
-if [read===1]
-then echo "One"
-else
-echo "Not one"
-fi
