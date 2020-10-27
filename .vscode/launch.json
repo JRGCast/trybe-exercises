@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Fundamentos do Desenvolvimento Web/bloco_4/dia_4.3/fruits.js"
+            "program": "${workspaceFolder}/Fundamentos do Desenvolvimento Web/bloco_4/dia_4.3/asteriscos.js"
         }
     ]
 }
