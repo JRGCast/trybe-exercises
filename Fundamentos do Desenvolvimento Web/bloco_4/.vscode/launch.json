@@ -10,7 +10,7 @@
             "request": "launch",
             "name": "Launch Program",
            
-            "program": "${workspaceFolder}/fruits.js"
+            "program": "${workspaceFolder}/evenNOddTrueFalse"
         }
     ]
 }
