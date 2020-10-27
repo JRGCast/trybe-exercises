@@ -10,7 +10,7 @@
             "request": "launch",
             "name": "Launch Program",
            
-            "program": "${workspaceFolder}/evenNOddTrueFalse"
+            "program": "${workspaceFolder}/evenNOddTrueFalse.js"
         }
     ]
 }
