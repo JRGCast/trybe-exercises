@@ -1,41 +1,41 @@
   //Exercício 1
-  function changeText() {
+  function mudarTexto() {
       let paragrafo = document.getElementsByTagName('p')[1];
       paragrafo.innerHTML = "Refazer esses exercícios mais tarde, agora é tentar terminar o projeto"
     }
-    changeText();
+    mudarTexto();
     //Exercício 2
-    function changeSquareToGreen() {
-      let squareYellow = document.getElementsByClassName('main-content')[0];
-      squareYellow.style.background = "rgb(76,164,109)";
+    function quadradoVerde() {
+      let quadradoAmarelo = document.getElementsByClassName('main-content')[0];
+      quadradoAmarelo.style.background = "rgb(76,164,109)";
     }
-    changeSquareToGreen();
+    quadradoVerde();
     //Exercício 3
-    function changeSquareToWhite() {
-      let squareRed = document.getElementsByClassName('center-content')[0];
-      squareRed.style.background = "white";
+    function quadradoBranco() {
+      let quadradoVermelho = document.getElementsByClassName('center-content')[0];
+      quadradoVermelho.style.background = "white";
     }
-    changeSquareToWhite();
+    quadradoBranco();
     //Exercício 4
-    function correctTitle() {
+    function corretorTitulo() {
       let title = document.getElementsByTagName('h1')[0];
       title.innerHTML = "Exercício 5.1 - JavaScript";
     }
-    correctTitle();
+    corretorTitulo();
     //Exercício 5
-    function paragraphUpperCase() {
+    function maiusculo() {
       let paragraph = document.getElementsByTagName('p')[0];
       paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
     }
-    paragraphUpperCase();
+    maiusculo();
     //Exercício 6
-    function showParagraphs() {
+    function mostraTexto() {
       let paragraphs = document.getElementsByTagName('p');
-      for (let index = 0; index < paragraphs.length; index += 1) {
-        console.log(paragraphs[index].innerHTML);
+      for (let i = 0; i < paragraphs.length; i += 1) {
+        console.log(paragraphs[i].innerHTML);
       }
     }
-    showParagraphs();
+    mostraTexto();
 
 
 /*
