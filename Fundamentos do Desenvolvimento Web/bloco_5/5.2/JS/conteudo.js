@@ -21,3 +21,9 @@ document.querySelector("#elementoOndeVoceEsta") //???????
 
 // 8. Agora acesse o terceiroFilho a partir de pai.
 document.querySelector("#pai").childNodes[5];
+
+// Crie um irmão para elementoOndeVoceEsta.
+// // Crie um filho para elementoOndeVoceEsta.
+// // Crie um filho para primeiroFilhoDoFilho.
+// // A partir desse filho criado, acesse terceiroFilho.
+// Remova todos os elementos da página, menos pai, elementoOndeVoceEsta e primeiroFilhoDoFilho.
