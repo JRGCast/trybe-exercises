@@ -1,4 +1,4 @@
-# Bloco 1: Unix, Bash e Shell Script:
+# :heavy_check_mark: :rocket: Bloco 1: Unix, Bash e Shell Script: :rocket: :heavy_check_mark:
 
 ## Unix & Bash - Parte 1:
 
