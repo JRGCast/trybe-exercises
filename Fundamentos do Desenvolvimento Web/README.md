@@ -3,6 +3,7 @@
 Este módulo retrata exclusivamente o básico dos fundamentos para o desenvolvimento WEB, sendo composto pelos blocos 1 a 10 do curso da Trybe.
 
 ## Blocos 1-10:
+
 [X] Bloco 1: Unix, Bash e Shell Script: :rocket:
 
 - Neste bloco aprendi o que é o sistema unix, bash e shell script, para conseguir realizar comandos efetivos e rápidos pelo terminal;
@@ -13,19 +14,19 @@ Este módulo retrata exclusivamente o básico dos fundamentos para o desenvolvim
 
 [X] Bloco 3: Introdução à HTML e CSS; :rocket:
 
-- Neste bloco aprendi como fazer uma página Web! Uma página simples, mas uma página da Web, bem como estilizá-la; 
+- Neste bloco aprendi como fazer uma página Web! Uma página simples, mas uma página da Web, bem como estilizá-la de maneira bem simplista com o CSS.
 
-[ ] Bloco 4: Introdução à JavaScript e Lógica de Programação; :hourglass_flowing_sand:
+[X] Bloco 4: Introdução à JavaScript e Lógica de Programação; :rocket:
 
--
+- Neste bloco eu finalmente conheci o famoso Javascript, iniciando a lógica da programação. Jornada que inicialmente foi extremamente difícil, não conseguia sequer fazer a pirâmide de asteriscos.
 
-[ ] Bloco 5: JavaScript: DOM, Eventos e Web Storage; :hourglass_flowing_sand:
+[X] Bloco 5: JavaScript: DOM, Eventos e Web Storage; :rocket:
 
--
+- Neste bloco aprendi sobre a "árvore" DOM, gerenciar eventos aos itens, linkando o HTML e CSS com o JS, de forma a manipular elementos de maneira dinâmica, bem como o session, local storage e o GET e POST.
 
-[ ] Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo; :hourglass_flowing_sand:
+[X] Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo; :rocket:
 
--
+- Neste bloco aprofundamos imensamente o HTML e CSS, bem como a interação destes com o JS. Fizemos o nosso primeiro projeto em dupla. Curiosamente, o trabalho dinâmico mais facilitou que problematizou, diferentemente do que muitos pensavam e pregavam.
 
 [ ] Bloco 7: Introdução à JavaScript ES6 e Testes Unitários; :hourglass_flowing_sand:
 
