@@ -1,4 +1,4 @@
-# Descrição dos Exercícios destes dias:
+# :ballot_box_with_check: Descrição dos Exercícios destes dias:
 
 ## Dia 1.3
 
@@ -101,21 +101,30 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 E pra terminar com a energia óh, lá no alto, que tal aprender agora alguns comandos divertidos do UNIX? ☝ 🎊
 [Leia este artigo para fazer os exercícios de aquecimento abaixo](https://canaltech.com.br/linux/11-comandos-divertidos-e-inuteis-para-usar-no-linux/)
-Abra o terminal e execute o comando cmatrix. Quando estiver se sentindo como o Neo, aperte ctrl+c para voltar ao terminal;
-Crie um arquivo de texto chamado fortune.txt que contenha a sua sorte do dia. Utilize apenas uma linha de comando. Dica: use o comando fortune, e o operador >;
-Conte quantas palavras tem a frase da sua sorte do dia. Dica: use o comando wc;
-Execute o comando sl. Agora tente sl -F;
-Execute o comando cowsay. Agora faça a vaquinha dizer a frase que está gravada no arquivo fortune.txt;
-Descubra os fatores primos do número 42 usando o comando factor;
-Veja como fica a sua sorte do dia ao contrário. Dica: utilize o comando rev.
-Execute o comando telnet towel.blinkenlights.nl e espere alguns segundos. Lembre-se que você tem mais exercícios para fazer! 😅
-Recapitulando...
-Agora que você passou um bom tempo estudando sobre o Unix e seus comandos, sabemos que você já entende que:
-O Unix é um sistema operacional que inspirou muitos outros sistemas, como MacOS, Linux, Solaris etc.;
-O Unix é composto basicamente pelo Shell, Kernel e os programas;
-A estrutura de diretórios do Unix é organizada no formato de uma árvore invertida, de forma hierárquica, iniciando pelo root;
-Tudo no Unix é um arquivo ou um processo;
-O terminal é seu principal aliado para ter produtividade em ambiente Unix;
-Depois de entender como abrir e utilizar o terminal, você aprendeu na prática como utilizar os comandos Bash. Vamos relembrar alguns dos comandos que você aprendeu a usar.
-Um bom exercício é, mentalmente, tentar descrever o que cada comando faz.
-ls, mkdir, cd, pwd, cp, mv, rm, rmdir, clear, cat, less, head, tail, grep, wc, >, >>, |, sort, who, man, whatis, apropos, \*, ?, chmod, ps, bg, kill, find, history.
+
+- Abra o terminal e execute o comando cmatrix. Quando estiver se sentindo como o Neo, aperte ctrl+c para voltar ao terminal;
+
+- Crie um arquivo de texto chamado fortune.txt que contenha a sua sorte do dia. Utilize apenas uma linha de comando. Dica: use o comando fortune, e o operador >;
+  Conte quantas palavras tem a frase da sua sorte do dia. Dica: use o comando wc;
+
+- Execute o comando sl. Agora tente sl -F;
+
+- Execute o comando cowsay. Agora faça a vaquinha dizer a frase que está gravada no arquivo fortune.txt;
+
+- Descubra os fatores primos do número 42 usando o comando factor;
+
+- Veja como fica a sua sorte do dia ao contrário. Dica: utilize o comando rev.
+
+- Execute o comando telnet towel.blinkenlights.nl e espere alguns segundos. Lembre-se que você tem mais exercícios para fazer! 😅
+
+### Recapitulando...
+
+- Agora que você passou um bom tempo estudando sobre o Unix e seus comandos, sabemos que você já entende que:
+- O Unix é um sistema operacional que inspirou muitos outros sistemas, como MacOS, Linux, Solaris etc.;
+- O Unix é composto basicamente pelo Shell, Kernel e os programas;
+- A estrutura de diretórios do Unix é organizada no formato de uma árvore invertida, de forma hierárquica, iniciando pelo root;
+- Tudo no Unix é um arquivo ou um processo;
+- O terminal é seu principal aliado para ter produtividade em ambiente Unix;
+- Depois de entender como abrir e utilizar o terminal, você aprendeu na prática como utilizar os comandos Bash. Vamos relembrar alguns dos comandos que você aprendeu a usar.
+- Um bom exercício é, mentalmente, tentar descrever o que cada comando faz.
+- ls, mkdir, cd, pwd, cp, mv, rm, rmdir, clear, cat, less, head, tail, grep, wc, >, >>, |, sort, who, man, whatis, apropos, \*, ?, chmod, ps, bg, kill, find, history.
