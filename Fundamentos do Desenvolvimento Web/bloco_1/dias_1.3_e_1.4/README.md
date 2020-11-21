@@ -1,8 +1,8 @@
-# Descrição dos Exercícios destes dias: :closed_book:
+## Descrição dos Exercícios destes dias: :closed_book:
 
-## Dia 1.3
+### Dia 1.3
 
-### Parte I - Criação de arquivos e diretórios:
+#### Parte I - Criação de arquivos e diretórios:
 
 <b>Dica</b>: Para criação de arquivos vazios você pode utilizar o comando touch nome-do-arquivo.extensao.
 
@@ -33,7 +33,7 @@ JavaScript
 React
 SQL 14. Mostre na tela as 5 primeiras skills do arquivo skills.txt. 15. Mostre na tela as 4 últimas skills do arquivo skills.txt. 16. Apague todos os arquivos que terminem em .txt.
 
-### Parte II - Manipulação & Busca:
+#### Parte II - Manipulação & Busca:
 
 1. Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
 
@@ -54,11 +54,11 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 14. Liste todos os arquivos que terminem com tbt ou txt.
 15. Acesse o manual do comando ls.
 
-## Dia 1.4
+### Dia 1.4
 
-### Parte I - Comandos de Input e Output:
+#### Parte I - Comandos de Input e Output:
 
-#### (Continuamos a partir dos exercícios anteriores)
+##### (Continuamos a partir dos exercícios anteriores)
 
 1. Navegue até a pasta unix_tests;
 2. Crie um arquivo texto pelo terminal com o nome skills2.txt e adicione os valores Internet, Unix e Bash, um em cada linha.
@@ -72,7 +72,7 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 10. Crie um novo arquivo chamado bunch_of_things.txt com os conteúdos dos arquivos phrases2.txt e countries.txt
 11. Ordene o arquivo bunch_of_things.txt.
 
-### Parte II - Permissões:
+#### Parte II - Permissões:
 
 1. Navegue até a pasta unix_tests;
 2. Rode o comando ls -l e veja quais as permissões dos arquivos;
@@ -83,7 +83,7 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 5. Volte à permissão do arquivo bunch_of_things.txt para a listada inicialmente utilizando o comando chmod 644 bunch_of_things.txt. Leia este artigo para entender mais sobre o que é e como funciona essa numeração 644.
    Resultado esperado: -rw-r--r-- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt
 
-### Parte III - Processos & Jobs:
+#### Parte III - Processos & Jobs:
 
 1. Liste todos os processos;
 2. Agora use o comando sleep 30 & ;
@@ -97,7 +97,7 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 10. Retome a execução do processo sleep 100 em background com o comando bg.
 11. Termine a execução de todos os processos sleep (mate os processos).
 
-### (Bônus) - Parte IV - O despertar do terminal
+#### (Bônus) - Parte IV - O despertar do terminal
 
 E pra terminar com a energia óh, lá no alto, que tal aprender agora alguns comandos divertidos do UNIX? ☝ 🎊
 [Leia este artigo para fazer os exercícios de aquecimento abaixo](https://canaltech.com.br/linux/11-comandos-divertidos-e-inuteis-para-usar-no-linux/)
@@ -117,7 +117,7 @@ E pra terminar com a energia óh, lá no alto, que tal aprender agora alguns com
 
 - Execute o comando telnet towel.blinkenlights.nl e espere alguns segundos. Lembre-se que você tem mais exercícios para fazer! 😅
 
-### Recapitulando...
+#### Recapitulando...
 
 - Agora que você passou um bom tempo estudando sobre o Unix e seus comandos, sabemos que você já entende que:
 - O Unix é um sistema operacional que inspirou muitos outros sistemas, como MacOS, Linux, Solaris etc.;
