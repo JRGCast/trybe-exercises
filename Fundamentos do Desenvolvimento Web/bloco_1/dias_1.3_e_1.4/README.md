@@ -1,4 +1,4 @@
-# :ballot_box_with_check: Descrição dos Exercícios destes dias:
+# Descrição dos Exercícios destes dias: :closed_book:
 
 ## Dia 1.3
 
