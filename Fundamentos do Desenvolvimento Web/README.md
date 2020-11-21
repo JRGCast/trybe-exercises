@@ -4,27 +4,27 @@ Este módulo retrata exclusivamente o básico dos fundamentos para o desenvolvim
 
 ## Blocos 1-10:
 
-[X] Bloco 1: Unix, Bash e Shell Script: :rocket:
+[X] Bloco 1: Unix, Bash e Shell Script: :heavy_check_mark: :rocket:
 
 - Neste bloco aprendi o que é o sistema unix, bash e shell script, para conseguir realizar comandos efetivos e rápidos pelo terminal;
 
-[X] Bloco 2: Git, GitHub e Internet; :rocket:
+[X] Bloco 2: Git, GitHub e Internet; :heavy_check_mark: :rocket:
 
 - Neste bloco aprendi sobre uma das principais ferramentas de qualquer desenvolvedor, bem como os comandos necessários para atuar em equipe de maneira muito melhor que a que convencionalmente aprendemos na faculdade (em que apenas uma pessoa pode trabalhar por vez, e o projeto final sempre é emendado e remendado);
 
-[X] Bloco 3: Introdução à HTML e CSS; :rocket:
+[X] Bloco 3: Introdução à HTML e CSS; :heavy_check_mark: :rocket:
 
 - Neste bloco aprendi como fazer uma página Web! Uma página simples, mas uma página da Web, bem como estilizá-la de maneira bem simplista com o CSS.
 
-[X] Bloco 4: Introdução à JavaScript e Lógica de Programação; :rocket:
+[X] Bloco 4: Introdução à JavaScript e Lógica de Programação; :heavy_check_mark: :rocket:
 
 - Neste bloco eu finalmente conheci o famoso Javascript, iniciando a lógica da programação. Jornada que inicialmente foi extremamente difícil, não conseguia sequer fazer a pirâmide de asteriscos.
 
-[X] Bloco 5: JavaScript: DOM, Eventos e Web Storage; :rocket:
+[X] Bloco 5: JavaScript: DOM, Eventos e Web Storage; :heavy_check_mark: :rocket:
 
 - Neste bloco aprendi sobre a "árvore" DOM, gerenciar eventos aos itens, linkando o HTML e CSS com o JS, de forma a manipular elementos de maneira dinâmica, bem como o session, local storage e o GET e POST.
 
-[X] Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo; :rocket:
+[X] Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo; :heavy_check_mark: :rocket:
 
 - Neste bloco aprofundamos imensamente o HTML e CSS, bem como a interação destes com o JS. Fizemos o nosso primeiro projeto em dupla. Curiosamente, o trabalho dinâmico mais facilitou que problematizou, diferentemente do que muitos pensavam e pregavam.
 
