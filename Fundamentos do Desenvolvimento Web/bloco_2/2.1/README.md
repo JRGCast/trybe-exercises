@@ -1,4 +1,5 @@
-# Bloco 2 Git, GitHub e Internet
-1- Git & GitHub - O que é e para que serve;
-2- Git & GitHub - Entendendo os comandos;
-3- Internet - Entendendo como ela funciona;
+## Dia 2.1:
+
+### Descrição do exercício:
+
+Neste dia aprendemos sobre o GitHub, criamos uma conta no site, criamos um repositório, aprendemos como gerar uma chave ssh, como criar uma branch localmente, trabalhar nela realizando adições e commits, bem como criar e fazer push em brand remota.
