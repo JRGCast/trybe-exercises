@@ -1,4 +1,4 @@
-## Dia 2.2:
+## Dia 2.2: :closed_book:
 
 ### Descrição dos exercícios:
 
