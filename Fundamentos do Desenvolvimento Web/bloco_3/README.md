@@ -15,5 +15,5 @@
 - Neste dia aprendemos sobre como utilizar as tags semânticas do HTML5.
 - Ficou evidente o quanto nosso trabalho é muito mais do que meramente algo visual e que devemos pensar em pessoas que necessitem de leitores de páginas, tais como deficientes visuais;
 
-###[3.5] - Projeto - Lessons Learned
+### [3.5] - Projeto - Lessons Learned
 - Nosso primeiro projeto! Desenvolvemos uma página simples, utilizando corretamente os HTML semântico, os seletores CSS e o posicionamento.
