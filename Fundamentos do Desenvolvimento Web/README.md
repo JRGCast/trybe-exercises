@@ -26,11 +26,11 @@ Este módulo retrata exclusivamente o básico dos fundamentos para o desenvolvim
 
 [X] Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo; :heavy_check_mark: :rocket:
 
-- Neste bloco aprofundamos imensamente o HTML e CSS, bem como a interação destes com o JS. Fizemos o nosso primeiro projeto em dupla. Curiosamente, o trabalho dinâmico mais facilitou que problematizou, diferentemente do que muitos pensavam e pregavam.
+- Neste bloco aprofundamos imensamente o HTML e CSS, bem como a interação destes com o JS. Fizemos o nosso primeiro projeto em dupla. Curiosamente, diferentemente do que muitos pregavam, o trabalho em dupla mais facilitou que problematizou. Conseguimos terminar 95% em apenas um dia, apesar de em dado momento nos atrapalhamos um pouco, tudo foi resolvido com extrema rapidez.
 
 [ ] Bloco 7: Introdução à JavaScript ES6 e Testes Unitários; :hourglass_flowing_sand:
 
--
+- Neste bloco fomos introduzidos ao mindset de Test Driven Development - TDD, que é o desenvolvimento orientado por testes. Em um primeiro momento, foi contraintuitivo 'começar falhando' para em seguida ir arrumando, porém, é um mindset que passei a admirar muito, pois, nota-se grande semelhança com o 'compliance' no direito, o famoso 'melhor prevenir que remediar'. 
 
 [ ] Bloco 8: Higher Order Functions do JavaScript ES6; :hourglass_flowing_sand:
 
