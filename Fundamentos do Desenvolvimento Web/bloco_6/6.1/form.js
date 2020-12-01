@@ -2,7 +2,7 @@ function optionEstados() {
   let estadosList = document.getElementById('estado-select-list');
 
   let fichaList = {
-    AC: 'Acre',
+     AC: 'Acre',
     AL: 'Alagoas',
     AP: 'Amapá',
     AM: 'Amazonas',
