@@ -1,5 +1,4 @@
-// 2. Retorne o nome do livro de menor nome.
-// Dica: use a função forEach .
+// 5. Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário.
 
 const assert = require('assert');
 
@@ -66,16 +65,14 @@ const books = [
   },
 ];
 
-function smallerName() {
-  let nameBook;
-  // escreva aqui o seu código
-  books.forEach(pos => {
-    if (!nameBook || pos.name.length < nameBook.length) {
-      nameBook = pos.name;
-    }
-  });
-  // Variável nameBook que receberá o valor do menor nome;
-  return nameBook;
+const expectedResult = false;
+
+function everyoneWasBornOnSecXX() {
+  // escreva seu código aqui
+  return books.every(
+    element =>
+      element.author.birthYear >= 1900 && element.author.birthYear < 200
+  );
 }
 
-assert.strictEqual(smallerName(), 'Duna');
+assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult);
