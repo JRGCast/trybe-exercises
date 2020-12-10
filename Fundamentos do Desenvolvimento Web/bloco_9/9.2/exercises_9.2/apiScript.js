@@ -4,7 +4,7 @@ const myObject = {
   headers: { Accept: 'application/json' },
 }; // O segundo parâmetro( `myObject` ) define o tipo de request( `method: 'GET'` ) e o formato da resposta( `headers: { 'Accept': 'application/json' }` ), como visto nas requisições via `curl`.
 
-const rndomArr10Sqr = [...new Array(10)] // solução encontrada em https://medium.com/@wisecobbler/4-ways-to-populate-an-array-in-javascript-836952aea79f
+const rndomArr10Sqr = [...new Array(10)]
   .map(element => (element = Math.floor(Math.random() * 50)))
   .map(acc => acc * acc)
   .reduce((acc, currentValue) => acc + currentValue);
