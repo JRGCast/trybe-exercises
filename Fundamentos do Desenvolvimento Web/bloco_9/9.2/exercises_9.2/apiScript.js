@@ -15,23 +15,21 @@ const isItOver8000 = arr => {
   return result;
 };
 
-console.log(isItOver8000(rndomArr10Sqr));
-//console.log(rndomArr10Sqr);
-
 const fetchJoke = () => {
   // Adicionar lógica aqui!
-  return new Promise((resolve, reject) => {
+  return new Promise(async(resolve, reject) => {
     if (API_URL) {
-      return fetch(API_URL, myObject)
+      return await fetch(API_URL, myObject)
         .then(result => result.json())
         .then(data => {
           console.log(data);
-          resolve(data);
+          resolve();
         });
     } else {
       throw new Error(reject(alert('Deu erro amigão!')));
     }
   });
 };
+console.log(fetchJoke())
 
 window.onload = () => fetchJoke();
