@@ -27,13 +27,25 @@ const longestWord = (string) => string.split(' ').reduce((longest, currentValue)
 // Parâmetro: "Bebeto"
 // Retorno: "Tryber Bebeto aqui!"
 // Um array com escopo global, que é o escopo do arquivo JS , nesse caso, contendo cinco strings com suas principais skills .
+const skills = ['perseverante', 'comunicativo', 'prático', 'objetivo', 'charmoso']
 const alterate = (reception) => {
   const inside = (inner) => `Olá ${inner}, diabo de exercício chato`;
- let result = `${inside(reception)}`
- return result
+ let result = `${inside(reception)}
+ Minhas cinco principais habilidades são:`
+    skills.forEach((skill, index) =>
+    result = `${result}
+
+    - ${skill}`)
+
+    result = `
+    ${result}
+
+    #goTrybe
+    `
+    return result
  }
  console.log(alterate('lel'))
- const skills = ['perseverante', 'comunicativo', 'prático', 'objetivo', 'charmoso']
+
  // Ok!
  // Variação divertida: 
  const alterate2 = (reception) => reception.split('').map((par) => {
@@ -42,3 +54,4 @@ const alterate = (reception) => {
   
  console.log(alterate2('OLÁ MUNDOX X XAN'))
 
+ // Função 2 : Escreva uma função que vai receber a string retornada da Função 1 como parâmetro. Essa função deve concatenar as skills do array global à string que foi passada para a Função 2 via parâmetro. Você deve ordenar os skills em ordem alfabética. Sua função deve retornar essa nova string .
