@@ -24,7 +24,7 @@ const fetchPromise = () => {
         (acc, currentValue) => acc + currentValue,
         0,
       )(itsOver8000 < 8000)
-      ? resolve(sum)
+      ? resolve(itsOver8000)
       : reject();
   });
   newPromise
@@ -43,7 +43,7 @@ const fetchJoke = () =>
       const jokeCont = document.getElementById('jokeContainer');
       jokeCont.innerHTML = responsedJson.joke;
     });
-fetchJoke();
-//window.onload = function onload() {
-//   fetchJoke();
-// };
+
+window.onload = function onload() {
+  fetchJoke();
+};
