@@ -84,5 +84,6 @@ function longestNamedBook() {
   });
   return longest;
 }
+
 // Ok!
 assert.deepStrictEqual(longestNamedBook(), expectedLongestResult);

@@ -1,5 +1,7 @@
-// 2 Crie uma string com os nomes de todas as pessoas autoras.
+// 5. Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário.
+
 const assert = require('assert');
+
 const books = [
   {
     id: 1,
@@ -63,19 +65,14 @@ const books = [
   },
 ];
 
-function allNames() {
+const expectedResult = false;
+
+function everyoneWasBornOnSecXX() {
   // escreva seu código aqui
-  const names = books.reduce((accumulator, currentValue, index, arr) => {
-    if (index === arr.length - 1) {
-      return `${accumulator} ${currentValue.author.name}.`;
-    }
-    return `${accumulator} ${currentValue.author.name},`;
-  }, '');
-  return `Nomes:${names}`;
+  return books.every(
+    element =>
+      element.author.birthYear >= 1900 && element.author.birthYear < 200
+  );
 }
 
-assert.deepStrictEqual(
-  allNames(),
-  'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.',
-);
-// Ok!
+assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult);

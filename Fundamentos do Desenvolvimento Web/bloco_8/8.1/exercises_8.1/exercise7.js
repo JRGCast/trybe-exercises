@@ -1,5 +1,7 @@
-// 2 Crie uma string com os nomes de todas as pessoas autoras.
+// 7. Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
+
 const assert = require('assert');
+
 const books = [
   {
     id: 1,
@@ -63,19 +65,18 @@ const books = [
   },
 ];
 
-function allNames() {
+const expectedResult = false;
+
+function authorUnique() {
   // escreva seu código aqui
-  const names = books.reduce((accumulator, currentValue, index, arr) => {
-    if (index === arr.length - 1) {
-      return `${accumulator} ${currentValue.author.name}.`;
-    }
-    return `${accumulator} ${currentValue.author.name},`;
-  }, '');
-  return `Nomes:${names}`;
+  return books.every(
+    book =>
+      !books.some(
+        bookSome =>
+          bookSome.author.birthYear === book.author.birthYear &&
+          bookSome.author.name !== book.author.name
+      )
+  );
 }
 
-assert.deepStrictEqual(
-  allNames(),
-  'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.',
-);
-// Ok!
+assert.strictEqual(authorUnique(), expectedResult);

@@ -1,5 +1,6 @@
-// 2 Crie uma string com os nomes de todas as pessoas autoras.
+// 6. Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
 const assert = require('assert');
+
 const books = [
   {
     id: 1,
@@ -63,19 +64,18 @@ const books = [
   },
 ];
 
-function allNames() {
-  // escreva seu código aqui
-  const names = books.reduce((accumulator, currentValue, index, arr) => {
-    if (index === arr.length - 1) {
-      return `${accumulator} ${currentValue.author.name}.`;
-    }
-    return `${accumulator} ${currentValue.author.name},`;
-  }, '');
-  return `Nomes:${names}`;
-}
+const expectedResult = [
+  'O Senhor dos Anéis',
+  'Fundação',
+  'O Chamado de Cthulhu',
+];
 
-assert.deepStrictEqual(
-  allNames(),
-  'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.',
-);
+function oldBooks() {
+  // escreva seu código aqui
+  currentYear = new Date().getFullYear();
+  return books
+    .filter((book) => currentYear - book.releaseYear >= 60)
+    .map((element) => element.name);
+}
 // Ok!
+assert.deepStrictEqual(oldBooks(), expectedResult);

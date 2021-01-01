@@ -1,5 +1,6 @@
-// 2 Crie uma string com os nomes de todas as pessoas autoras.
+// 2. Construa um array de objetos a partir do array de livros. Cada objeto deve conter uma propriedade author , com o nome da pessoa autora do livro, e uma propriedade age com a idade dessa pessoa quando o livro foi lançado. O array deve ser ordenado por idade, ou seja, da pessoa mais jovem para a mais velha considerando suas idades quando o livro foi lançado.
 const assert = require('assert');
+
 const books = [
   {
     id: 1,
@@ -63,19 +64,44 @@ const books = [
   },
 ];
 
-function allNames() {
-  // escreva seu código aqui
-  const names = books.reduce((accumulator, currentValue, index, arr) => {
-    if (index === arr.length - 1) {
-      return `${accumulator} ${currentValue.author.name}.`;
-    }
-    return `${accumulator} ${currentValue.author.name},`;
-  }, '');
-  return `Nomes:${names}`;
-}
+const expectedResult = [
+  {
+    age: 31,
+    author: 'Isaac Asimov',
+  },
+  {
+    age: 38,
+    author: 'H. P. Lovecraft',
+  },
+  {
+    age: 39,
+    author: 'Stephen King',
+  },
+  {
+    age: 43,
+    author: 'George R. R. Martin',
+  },
+  {
+    age: 45,
+    author: 'Frank Herbert',
+  },
+  {
+    age: 62,
+    author: 'J. R. R. Tolkien',
+  },
+];
 
-assert.deepStrictEqual(
-  allNames(),
-  'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.',
-);
-// Ok!
+function nameAndAge() {
+  // escreva seu código aqui
+  return books
+    .map((book) => {
+      return {
+        author: book.author.name,
+        age: book.releaseYear - book.author.birthYear,
+      };
+    })
+    .sort((a, b) => a.age - b.age);
+}
+// OK!
+// depois tentar organizar também pelos nomes!
+assert.deepStrictEqual(nameAndAge(), expectedResult);

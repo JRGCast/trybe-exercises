@@ -1,5 +1,8 @@
-// 2 Crie uma string com os nomes de todas as pessoas autoras.
+// 1. Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
+// Dica: use a função find .
+
 const assert = require('assert');
+
 const books = [
   {
     id: 1,
@@ -63,19 +66,8 @@ const books = [
   },
 ];
 
-function allNames() {
-  // escreva seu código aqui
-  const names = books.reduce((accumulator, currentValue, index, arr) => {
-    if (index === arr.length - 1) {
-      return `${accumulator} ${currentValue.author.name}.`;
-    }
-    return `${accumulator} ${currentValue.author.name},`;
-  }, '');
-  return `Nomes:${names}`;
+function authorBornIn1947() {
+  // escreva aqui o seu código
+  return books.find(element => element.author.birthYear === 1947).author.name;
 }
-
-assert.deepStrictEqual(
-  allNames(),
-  'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.',
-);
-// Ok!
+assert.strictEqual(authorBornIn1947(), 'Stephen King');

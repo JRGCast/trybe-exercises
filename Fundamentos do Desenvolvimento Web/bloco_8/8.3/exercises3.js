@@ -75,4 +75,5 @@ function averageAge() {
   return age / books.length;
 }
 // Ok!
+
 assert.strictEqual(averageAge(), expectedResult);

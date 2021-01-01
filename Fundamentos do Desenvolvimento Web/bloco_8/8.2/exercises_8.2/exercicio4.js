@@ -1,5 +1,6 @@
-// 2 Crie uma string com os nomes de todas as pessoas autoras.
+// 4. Crie um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho.
 const assert = require('assert');
+
 const books = [
   {
     id: 1,
@@ -63,19 +64,37 @@ const books = [
   },
 ];
 
-function allNames() {
-  // escreva seu código aqui
-  const names = books.reduce((accumulator, currentValue, index, arr) => {
-    if (index === arr.length - 1) {
-      return `${accumulator} ${currentValue.author.name}.`;
-    }
-    return `${accumulator} ${currentValue.author.name},`;
-  }, '');
-  return `Nomes:${names}`;
-}
+const expectedResult = [
+  {
+    id: 6,
+    name: 'O Chamado de Cthulhu',
+    genre: 'Terror',
+    author: { name: 'H. P. Lovecraft', birthYear: 1890 },
+    releaseYear: 1928,
+  },
+  {
+    id: 3,
+    name: 'Fundação',
+    genre: 'Ficção Científica',
+    author: { name: 'Isaac Asimov', birthYear: 1920 },
+    releaseYear: 1951,
+  },
+  {
+    id: 2,
+    name: 'O Senhor dos Anéis',
+    genre: 'Fantasia',
+    author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
+    releaseYear: 1954,
+  },
+];
 
-assert.deepStrictEqual(
-  allNames(),
-  'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.',
-);
-// Ok!
+function oldBooks() {
+  // escreva seu código aqui
+  currentYear = new Date().getFullYear();
+  return books
+    .filter((element) => currentYear - element.releaseYear >= 60)
+    .sort((a, b) => a.releaseYear - b.releaseYear);
+}
+// OK! Treinar mais esse sort.
+
+assert.deepStrictEqual(oldBooks(), expectedResult);

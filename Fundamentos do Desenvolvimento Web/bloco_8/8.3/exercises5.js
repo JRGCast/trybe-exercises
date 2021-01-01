@@ -23,4 +23,5 @@ function containsA() {
   return aceArray.length;
 }
 // OK!
+
 assert.deepStrictEqual(containsA(), 20);

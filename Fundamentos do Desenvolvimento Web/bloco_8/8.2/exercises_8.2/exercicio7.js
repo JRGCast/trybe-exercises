@@ -1,5 +1,7 @@
-// 2 Crie uma string com os nomes de todas as pessoas autoras.
+// 7. Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais (terminam com um ponto).
+
 const assert = require('assert');
+
 const books = [
   {
     id: 1,
@@ -63,19 +65,16 @@ const books = [
   },
 ];
 
-function allNames() {
-  // escreva seu código aqui
-  const names = books.reduce((accumulator, currentValue, index, arr) => {
-    if (index === arr.length - 1) {
-      return `${accumulator} ${currentValue.author.name}.`;
-    }
-    return `${accumulator} ${currentValue.author.name},`;
-  }, '');
-  return `Nomes:${names}`;
+const expectedResult = 'O Senhor dos Anéis';
+
+function authorWith3DotsOnName() {
+  return books.find(
+    (book) =>
+      book.author.name.split(' ').filter((word) => word.endsWith('.'))
+        .length === 3,
+  ).name;
 }
 
-assert.deepStrictEqual(
-  allNames(),
-  'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.',
-);
-// Ok!
+// Ok, mas precisa treinar e muito essa combinação.
+
+assert.deepStrictEqual(authorWith3DotsOnName(), expectedResult);

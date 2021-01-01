@@ -1,5 +1,8 @@
-// 2 Crie uma string com os nomes de todas as pessoas autoras.
+// 2. Retorne o nome do livro de menor nome.
+// Dica: use a função forEach .
+
 const assert = require('assert');
+
 const books = [
   {
     id: 1,
@@ -63,19 +66,16 @@ const books = [
   },
 ];
 
-function allNames() {
-  // escreva seu código aqui
-  const names = books.reduce((accumulator, currentValue, index, arr) => {
-    if (index === arr.length - 1) {
-      return `${accumulator} ${currentValue.author.name}.`;
+function smallerName() {
+  let nameBook;
+  // escreva aqui o seu código
+  books.forEach(pos => {
+    if (!nameBook || pos.name.length < nameBook.length) {
+      nameBook = pos.name;
     }
-    return `${accumulator} ${currentValue.author.name},`;
-  }, '');
-  return `Nomes:${names}`;
+  });
+  // Variável nameBook que receberá o valor do menor nome;
+  return nameBook;
 }
 
-assert.deepStrictEqual(
-  allNames(),
-  'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.',
-);
-// Ok!
+assert.strictEqual(smallerName(), 'Duna');

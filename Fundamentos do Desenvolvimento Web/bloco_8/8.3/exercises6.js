@@ -1,3 +1,5 @@
+const assert = require('assert');
+
 const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
 const grades = [
   [9, 8, 10, 7, 5],
@@ -28,5 +30,7 @@ const expected = [
   { name: 'Miguel', average: 9.2 },
   { name: 'Maria Clara', average: 8.8 },
 ];
+
+// Ok!
 
 assert.deepStrictEqual(studentAverage(), expected);

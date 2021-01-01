@@ -1,5 +1,7 @@
-// 2 Crie uma string com os nomes de todas as pessoas autoras.
+// 5. Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
+
 const assert = require('assert');
+
 const books = [
   {
     id: 1,
@@ -63,19 +65,32 @@ const books = [
   },
 ];
 
-function allNames() {
-  // escreva seu código aqui
-  const names = books.reduce((accumulator, currentValue, index, arr) => {
-    if (index === arr.length - 1) {
-      return `${accumulator} ${currentValue.author.name}.`;
-    }
-    return `${accumulator} ${currentValue.author.name},`;
-  }, '');
-  return `Nomes:${names}`;
-}
+const expectedResult = [
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien',
+];
 
-assert.deepStrictEqual(
-  allNames(),
-  'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.',
-);
-// Ok!
+function fantasyOrScienceFictionAuthors() {
+  // escreva seu código aqui
+  return books
+    .filter(
+      (element) =>
+        element.genre === 'Ficção Científica' || element.genre === 'Fantasia',
+    )
+    .map((book) => book.author.name)
+    .sort();
+}
+// OK!
+
+// Uma outra maneira interessante => usar includes:
+// function fantasyOrScienceFictionAuthors() {
+//   const wantedGenres = ['Fantasia', 'Ficção Científica'];
+//   return books
+//     .filter((book) => wantedGenres.includes(book.genre))
+//     .map((book) => book.author.name)
+//     .sort();
+// }
+
+assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult);
