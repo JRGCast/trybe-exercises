@@ -64,13 +64,14 @@ const books = [
 ];
 
 function allNames() {
+  // escreva seu código aqui
   const names = books.reduce((accumulator, currentValue, index, arr) => {
     if (index === arr.length - 1) {
       return `${accumulator} ${currentValue.author.name}.`;
     }
     return `${accumulator} ${currentValue.author.name},`;
   }, '');
-  return `Nomes:${names}`; // escreva seu código aqui
+  return `Nomes:${names}`;
 }
 
 assert.deepStrictEqual(
