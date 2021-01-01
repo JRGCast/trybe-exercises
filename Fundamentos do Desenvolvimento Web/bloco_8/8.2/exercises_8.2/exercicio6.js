@@ -1,4 +1,4 @@
-// 1. Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
+// 6. Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
 const assert = require('assert');
 
 const books = [
@@ -65,20 +65,17 @@ const books = [
 ];
 
 const expectedResult = [
-  'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
-  'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
-  'Fundação - Ficção Científica - Isaac Asimov',
-  'Duna - Ficção Científica - Frank Herbert',
-  'A Coisa - Terror - Stephen King',
-  'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
+  'O Senhor dos Anéis',
+  'Fundação',
+  'O Chamado de Cthulhu',
 ];
 
-function formatedBookNames() {
+function oldBooks() {
   // escreva seu código aqui
-  return books.map(
-    (element) => `${element.name} - ${element.genre} - ${element.author.name}`,
-  );
+  currentYear = new Date().getFullYear();
+  return books
+    .filter((book) => currentYear - book.releaseYear >= 60)
+    .map((element) => element.name);
 }
-
-assert.deepStrictEqual(formatedBookNames(), expectedResult);
-// OK!
+// Ok!
+assert.deepStrictEqual(oldBooks(), expectedResult);
