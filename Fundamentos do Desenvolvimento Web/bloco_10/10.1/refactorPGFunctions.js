@@ -81,17 +81,16 @@ const decode = (string) =>
 // Ok!
 
 // Desafio 10 (refatoração)
-function techList(techs, name) {
-  let techOrd = techs.sort();
-  let object = [];
-  if (techOrd.length === 0) {
-    object = 'Vazio!';
-  } else {
-    for (let i = 0; i < techOrd.length; i += 1) {
-      object.push({ tech: techOrd[i], name: name });
-    }
-  }
-  return object;
+function techList(tech, name) {
+  let result;
+  !tech.length
+    ? (result = 'Vazio!')
+    : (result = tech.sort().map((element) => ({
+        tech: element,
+        name,
+      })));
+
+  return result;
 }
 // Ok!.
 
