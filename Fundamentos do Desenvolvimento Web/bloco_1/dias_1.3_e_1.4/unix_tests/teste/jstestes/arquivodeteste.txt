@@ -1,0 +1,15 @@
+#!/bin/bash
+echo 'Nossa, estou programando scripts!'
+echo 'Vamos testar mais coisas?'
+cowsay 'Opa! Já é'
+variavel="Vamos testar essa variável, $user?"
+echo $variavel
+
+variavel="Eu sou o usuário $user"
+echo $variavel
+
+var="testando o var abreviado"
+echo $var
+
+var="diretório atual é $pwd"
+echo $var

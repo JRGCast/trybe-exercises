@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia 6.1</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Dia 6.1: HTML e CSS Forms (do amor)</h1>
+      <h2>Exercícios</h2>
+
+      <fieldset id="primeiro-fieldset">
+        <legend>Formulário Currículo</legend>
+        <form action="" method="GET">
+          <div id="nome-completo-container">
+            <label for="nome-completo">Nome Completo: </label>
+            <input
+              type="text"
+              placeholder="Digite seu nome"
+              name="nome"
+              id="nome-completo"
+              maxlength="40"
+              required
+            />
+          </div>
+          <div id="email-container">
+            <label for="email-input">E-mail: </label>
+            <input
+              type="email"
+              name="email"
+              id="email-input"
+              maxlength="50"
+              required
+            />
+          </div>
+          <div id="cpf-container">
+            <label for="cpf-input">CPF: </label>
+            <input
+              type="text"
+              name="CPF"
+              id="cpf-input"
+              maxlength="11"
+              required
+            />
+          </div>
+          <div id="endereco-container">
+            <label for="endereco-completo">Endereço completo: </label>
+            <textarea
+              type="text"
+              name="endereco"
+              id="endereco-completo"
+              rows="3"
+              required
+            >
+            </textarea>
+          </div>
+          <div id="cidade-container">
+            <label for="cidade-input">Cidade: </label>
+            <input
+              type="text"
+              name="cidade"
+              id="cidade-input"
+              maxlength="28"
+              required
+            />
+          </div>
+          <div id="estado-container">
+            <label for="estado-select-list">Estado/UF: </label>
+            <select
+              type="list"
+              name="UF"
+              id="estado-select-list"
+              required
+            ></select>
+          </div>
+          <div id="moradia-container">
+            <label name="moradia">Tipo de residência: </label>
+            <input type="radio" name="moradia" id="btn-casa" checked />
+            <label for="btn-casa">Casa</label>
+            <input type="radio" name="moradia" id="btn-apto" />
+            <label for="btn-apto">Apartamento</label>
+          </div>
+        </form>
+      </fieldset>
+      <fieldset id="segundo-fieldset">
+        <legend>Histórico empregatício</legend>
+        <form action="" method="GET">
+          <div id="curriculo-container">
+            <label for="curriculo-input">Currículo resumido: </label>
+            <textarea
+              name="curriculo"
+              id="curriculo-input"
+              cols="30"
+              rows="10"
+              placeholder="Resuma seu currículo aqui. Máximo de 1000 caracteres"
+              maxlength="1000"
+              required
+            ></textarea>
+          </div>
+          <div id="lastCargo-container">
+            <label for="lastCargo-input">Último cargo: </label>
+            <input
+              type="text"
+              name="lastCargo"
+              id="lastCargo-input"
+              maxlength="40"
+              required
+            />
+          </div>
+          <div id="lCargo-description-container">
+            <label for="lCargo-description">Descreva seu último cargo:</label>
+            <textarea
+              name="lCargoDesc"
+              id="lCargo-description"
+              cols="30"
+              rows="10"
+              maxlength="500"
+              placeholder="Descreva as atividades exercidas em seu último cargo. Máximo de 500 caracteres"
+              required
+            ></textarea>
+          </div>
+          <div id='data-inicio-container'>
+            <label for="data-inicio-input">Quando foi o início do seu último cargo?</label>
+            <input type='date' name="dataInicio" id="data-inicio-input" required>
+          </div>
+        </form>
+        <div id=button-container>
+          <button id=generate-curriculo>Gerar Currículo</button>
+          <button id=btn-clear>Limpar todos os campos</button>
+        </div>
+      </fieldset>
+      <div id=curriculo-feito-container>
+        <fieldset id=curriculo-feito>
+          <legend>Aqui está o seu currículo!</legend>
+        </fieldset>
+      </div>
+
+      
+    </main>
+  </body>
+  <script src="form.js"></script>
+</html>
