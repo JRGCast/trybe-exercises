@@ -8,12 +8,15 @@ const tasks = [
   'Ir trabalhar',
   'Xablauzar',
 ];
+const task = (value) => {
+  return <li>{value}</li>;
+};
 const App = () => (
-  <ul>
-    {tasks.map((task) => (
-      <li>{task}</li>
-    ))}
-  </ul>
+  <div>
+    <Xablau />
+    <h1>{'TAREFAS'}</h1>
+    <ul>{tasks.map((item) => task(item))}</ul>
+  </div>
 );
 
 export default App;
