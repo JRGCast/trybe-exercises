@@ -1,0 +1,19 @@
+.fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.legends {
+  text-align: center;
+}
+
+.input, .textarea {
+  border: 1px solid #ccc;
+  padding: 1px 6px;
+  margin: 0.2em;
+}
+
+.input {
+  width: 300px;
+}
