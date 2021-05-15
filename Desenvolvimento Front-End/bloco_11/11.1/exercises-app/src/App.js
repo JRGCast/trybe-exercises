@@ -2,6 +2,7 @@ import './App.css';
 import Xablau from './Xablau';
 const tasks = [
   'Acordar',
+  'Meditar',
   'Tomar café',
   'Escovar os dentes',
   'Ir trabalhar',
