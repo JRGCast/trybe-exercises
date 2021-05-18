@@ -1,0 +1,13 @@
+{
+  "name": "exercises-26.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "situacao": "node run calculaSituacao.js"
+  },
+  "keywords": [],
+  "author": "JRGCast",
+  "license": "ISC"
+}
