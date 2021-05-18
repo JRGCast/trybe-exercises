@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive './examples/tests/calculaSituacao.js'",
+    "test": "mocha --recursive './examples/tests'",
     "situacao": "node run calculaSituacao.js"
   },
   "keywords": [],

@@ -1,4 +1,4 @@
-const calculaSituacao = require('../situacaoAluno/calculaSituacao');
+const calculaSituacao = require('../funcoes/situacaoAluno/calculaSituacao');
 
 console.log('Quando a média for menor que 7, retorna "reprovado":');
 

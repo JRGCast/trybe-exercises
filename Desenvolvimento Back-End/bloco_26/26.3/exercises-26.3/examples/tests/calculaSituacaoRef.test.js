@@ -1,7 +1,7 @@
-import 'mocha'; // não é necessária a importação, pois, quando é instalado, fica global 
+// não é necessária a importação do mocha, pois, quando é instalado como devDependencies, fica global 
 const { expect } = require('chai');
 
-const calculaSituacao = require('../examples/calculaSituacao');
+const calculaSituacao = require('../funcoes/situacaoAluno/calculaSituacao');
 
 describe('Quando a média for menor que 7', () => {
   it('retorna "reprovado"', () => {
