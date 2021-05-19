@@ -1,5 +1,5 @@
 function calculaSituacao(media) {
-  if (media > 7) { // propositalmente não foi posto '>=' para o teste falhar
+  if (media >= 7) { // inicialmente foi proposital não colocar '>=', justamente para o teste falhar
     return 'aprovado';
   }
 

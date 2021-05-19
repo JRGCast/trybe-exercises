@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha './examples/tests'",
-    "situacao": "node run calculaSituacao.js"
+    "test": "mocha './examples/tests'"
   },
   "keywords": [],
   "author": "JRGCast",
