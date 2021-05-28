@@ -7,14 +7,28 @@ const fetch = require('node-fetch');
 // Num ambiente real, esse valor viria do Local Storage, ou de uma variável de ambiente
 const API_TOKEN = '2d635ea9b637ea0f27d58985cc161d64';
 
+// Depois, criamos o body
+// Utilizamos o `stringify` para que possamos enviar esse body como JSON
+const body = JSON.stringify({
+  name: 'Tryber',
+  email: 'tryber@betrybe.com',
+  password: 'Tr1b3r'});
+
 // Criamos um novo objeto de Headers
 const headers = new fetch.Headers({
-  Authorization: API_TOKEN});
+  Authorization: API_TOKEN,
+    // Precisamos adicionar o header `Content-Type` e defini-lo como `application/json`
+    'Content-Type': 'application/json',
+     // Adicionamos o body às opções da request
+     body,
+});
 
 // Para aquecer, vamos começar com uma requisição do tipo `GET`
-fetch('https://postman-echo.com/get?param1=teste', {
+const methodUse = 'POST';
+fetch(`https://postman-echo.com/${methodUse}?param1=teste`, {
   headers,
-  method: 'POST',})
+  method: methodUse,
+})
   .then((response) => {
     // Ao receber a resposta, verificamos se correu tudo bem
     if (!response.ok) {
