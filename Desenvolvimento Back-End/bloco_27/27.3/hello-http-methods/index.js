@@ -23,11 +23,14 @@ const headers = new fetch.Headers({
      body,
 });
 
+// Olá João! tudo bem? através dou routes ele unificou as rotas.. no index.js ele usa o app.use('/people', "nomedarota") e no arquivo "nomedarota" ele tem um routes.get('/:id'...). toda rota que estiver dentro do arquivo "nomedarota" vai ter o /people antes de qualquer verbo. nesse caso tornando a rota /people/:id.
+
 // Para aquecer, vamos começar com uma requisição do tipo `GET`
-const methodUse = 'POST';
+const methodUse = 'PUT';
 fetch(`https://postman-echo.com/${methodUse}?param1=teste`, {
   headers,
   method: methodUse,
+  body
 })
   .then((response) => {
     // Ao receber a resposta, verificamos se correu tudo bem
