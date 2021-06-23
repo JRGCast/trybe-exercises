@@ -3,10 +3,10 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     try {
-      await queryInterface.addColumn('Users', 'firstName', {
+      await queryInterface.addColumn('Users', 'first_name', {
         type: Sequelize.STRING,
       }),
-        await queryInterface.addColumn('Users', 'lastName', {
+        await queryInterface.addColumn('Users', 'last_name', {
           type: Sequelize.STRING,
         });
       return Promise.resolve();
@@ -24,8 +24,8 @@ module.exports = {
 
   down: async (queryInterface, Sequelize) => {
     try {
-      await queryInterface.removeColumn('Users', 'fistName');
-      await queryInterface.removeColumn('Users', 'lastName');
+      await queryInterface.removeColumn('Users', 'first_name');
+      await queryInterface.removeColumn('Users', 'last_name');
       return Promise.resolve();
     } catch (error) {
       return Promise.reject(error);

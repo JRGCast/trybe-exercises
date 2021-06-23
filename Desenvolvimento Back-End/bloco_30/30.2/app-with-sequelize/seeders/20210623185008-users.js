@@ -4,22 +4,26 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     const firstData = [
       {
-        firstName: 'Leonardo',
-        lastName: 'Demonful',
-        get fullName() { return `${this.firstName} ${this.lastName}`; },
+        first_name: 'Leonardo',
+        last_name: 'Demonful',
+        get full_name() { return `${this.firstName} ${this.lastName}`; },
         email: 'leozindemo@gmail.com',
         phone_num: '1234',
-        createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
-        updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+        // createdAt: Sequelize.literal('CURRENT_TIMESTAMP'), // mudou para snake case
+        // updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'), // mudou para snake case
+        created_at: Sequelize.literal('CURRENT_TIMESTAMP'),
+        updated_at: Sequelize.literal('CURRENT_TIMESTAMP'),
       },
       {
-        firstName: 'Joseph',
-        lastName: 'Pelintro',
-        get fullName() { return `${this.firstName} ${this.lastName}`; },
+        first_name: 'Joseph',
+        last_name: 'Pelintro',
+        get full_name() { return `${this.first_name} ${this.last_name}`; },
         email: 'josep@gmail.com',
         phone_num: '4567',
-        createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
-        updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+        // createdAt: Sequelize.literal('CURRENT_TIMESTAMP'), // mudou para snake case
+        // updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'), // mudou para snake case
+        created_at: Sequelize.literal('CURRENT_TIMESTAMP'),
+        updated_at: Sequelize.literal('CURRENT_TIMESTAMP'),
       },
     ];
     return queryInterface.bulkInsert('Users', firstData, {});
