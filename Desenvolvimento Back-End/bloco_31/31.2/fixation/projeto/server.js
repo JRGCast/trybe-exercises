@@ -14,6 +14,10 @@ const server = net.createServer((connection) => {
   connection.pipe(connection);
 });
 
+server.on('error', (error) => {
+  console.log('Ocorreu um problema no socket: ', error.message);
+});
+
 /* Após termos programado o servidor, é só colocá-lo de pé */
 server.listen(8080, () => {
   console.log('Servidor escutando na porta 8080');
