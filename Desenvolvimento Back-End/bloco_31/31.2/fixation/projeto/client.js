@@ -1,16 +1,19 @@
 const net = require('net');
-/* Através do pacote NET, nós podemos não só criar servidores como podemos conectar nossos clientes aos servidores */
-const client = net.connect({ port: 8080 }, () => {
-  console.log('Olá cliente conectado ao servidor!');
-});
+const client = new net.Socket();
+const stdin = process.openStdin();
 
-/* Assim como no servidor, também temos eventos do lado do cliente, onde o evento 'data' é ativado quando o servidor envia uma mensagem para o cliente. */
 client.on('data', (data) => {
-  console.log(data.toString());
-  client.end();
+  console.log(data.toString('utf-8'));
 });
 
-/* Quando a conexão é interrompida/terminada, é ativado o evento 'end', onde podemos limpar alguns caches, dar uma mensagem para usuário, atualizar algum dado no banco de dados etc. */
-client.on('end', () => {
-  console.log('Tchau! Desconectado do servidor');
+client.connect(2500, 'localhost');
+
+client.on('connect', () => {
+  stdin.addListener('data', (text) => {
+    const message = text.toString().trim();
+
+    client.write(message);
+  });
 });
+
+client.on('end', () => console.log('Você deixou o chat'));
