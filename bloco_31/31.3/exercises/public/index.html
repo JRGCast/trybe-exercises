@@ -37,12 +37,20 @@
                     <span class="likes" id='currentStars'>0</span>
                   </a>
                 </div>
+                <button id='logBtn'>Log button</button>
               </div>
             </article>
           </div>
         </div>
       </div>
     </div>
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="./js/feed.js"></script>
+    <script>
+
+      const logButton = document.getElementById('logBtn');
+      logButton.addEventListener('click', (e) => console.log(e.type));
+    </script>
   </body>
 
 </html>
