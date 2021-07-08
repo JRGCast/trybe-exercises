@@ -18,11 +18,16 @@ const server = net.createServer((socket) => {
   socket.id = `Guest_${countGuest}`;
 
   // socket.on('connection', () => {
-    console.log(`O usuário ${socket.id} se conectou`);
+  console.log(`O usuário ${socket.id} se conectou`);
+  server.getConnections((err, count) => {
+    if (err) console.log(err);
+    const answer = count > 1 ? `Há ${count} pessoas conectadas` : `Há ${count} pessoa conectada`;
+    console.log(answer);
+  });
 
-    sockets.push(socket);
+  sockets.push(socket);
 
-    socket.write(`Bem vindo, ${socket.id}!`);
+  socket.write(`Bem vindo, ${socket.id}!`);
   // });
 
   socket.on('data', (data) => {
@@ -34,7 +39,13 @@ const server = net.createServer((socket) => {
 
   socket.on('close', () => {
     console.log(`O usuário ${socket.id} se desconectou`);
+    server.getConnections((err, count) => {
+      if (err) console.log(err);
+      const answer = count > 1 ? `Há ${count} pessoas conectadas` : `Há ${count} pessoa conectada`;
+      console.log(answer);
+    });
   });
+  broadcastMessage(socket.id, `${socket.id} se conectou`);
 
   socket.on('end', () => {
     sockets.splice(sockets.indexOf(socket), 1);
@@ -44,7 +55,6 @@ const server = net.createServer((socket) => {
     broadcastMessage(socket.id, message);
   });
 
-  broadcastMessage(socket.id, `${socket.id} se conectou`);
 });
 
 server.listen(PORT, () => console.log(`Conectado na porta ${PORT}`));
