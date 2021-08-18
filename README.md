@@ -91,39 +91,39 @@ The program counts with more than 1.500 of in-class and online class hours, abor
 - [x] 10-3: _Jest - Simulando comportamentos_
 - [x] 10-4: _[Projeto - Jest Assí­ncrono e Mocking]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :rocket:
 
-##### Bloco 11: Introdução - React
+##### Bloco 11: Introdução - React :rocket:
 
 - [x] 11-1: _'Hello, world!' no React!_
 - [x] 11-2: _Componentes React_
 - [x] 11-3: _[Projeto - Movie Cards Library]()_
 
-##### Bloco 12: React
+##### Bloco 12: React :rocket:
 
 - [x] 12-1: _Components com estado_
 - [x] 12-2: _Eventos e formulários no React_
 - [x] 12-3: _[Projeto - Movie Cards Library Stateful]()_
 
-##### Bloco 13: React
+##### Bloco 13: React :rocket:
 
 - [x] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
 - [x] 13-2: _Ciclo de vida de componentes em React_
 - [x] 13-3: _React Router_
 - [x] 13-4: _[Projeto - Movie Cards Library CRUD]()_
 
-##### Bloco 14: Metodologias Ágeis
+##### Bloco 14: Metodologias Ágeis :rocket:
 
 - [x] 14-1: _Metodologias Ágeis_
 - [x] 14-2: _[Projeto - Frontend Online Store]()_
 
-##### Bloco 15: Testes em React
+##### Bloco 15: Testes em React :rocket:
 
 - [x] 15-1: _Testando React com a React Testing Library_
 - [x] 15-2: _Testando React com a React Testing Library - Parte 2_
 - [x] 15-3: _[Projeto - Testes em React]()_
 
-##### Bloco 16: Introdução ao Redux
+##### Bloco 16: Introdução ao Redux :rocket:
 
 - [x] 16-1: _Introdução ao Redux_
 - [x] 16-2: _React com Redux - Parte 1_
@@ -132,24 +132,24 @@ The program counts with more than 1.500 of in-class and online class hours, abor
 - [x] 16-5: _Testes síncronos com React-Redux_
 - [x] 16-6: _[Projeto - Tabela com filtros de dados]()_
 
-##### Bloco 17: Projeto React
+##### Bloco 17: Projeto React :rocket:
 
 - [x] 17-1: _[Projeto - Jogo de Trivia]()_
 
-##### Bloco 18: React & Context API
+##### Bloco 18: React & Context API :rocket:
 
 - [x] 18-1: _Context API do React_
 - [x] 18-2: _React Hooks - useState e useContext_
 - [x] 18-3: _React Hooks - useEffect e Hooks customizados_
 - [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
-##### Bloco 19: Projeto Final de Front-end
+##### Bloco 19: Projeto Final de Front-end :rocket:
 
 - [x] 19-1: _[Projeto - App de Receitas]()_
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :rocket:
 
-##### Bloco 20: Introdução - Bancos de dados relacionais
+##### Bloco 20: Introdução - Bancos de dados relacionais :rocket:
 
 - [x] 20-1: _Banco de dados SQL_
 - [x] 20-2: _Encontrando dados em um banco de dados_
@@ -157,75 +157,75 @@ The program counts with more than 1.500 of in-class and online class hours, abor
 - [x] 20-4: _Manipulando tabelas_
 - [x] 20-5: _[Projeto - All For One]()_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 21: Bancos de dados relacionais :rocket:
 
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs e UNIONs_
 - [x] 21-3: _Stored Routines & Subqueries_
 - [x] 21-4: _[Projeto - Vocabulary Booster]()_
 
-##### Bloco 22: Bancos de dados relacionais
+##### Bloco 22: Bancos de dados relacionais :rocket:
 
 - [x] 22-1: _Transformando ideias em um modelo de banco de dados_
 - [x] 22-2: _Normalização, Formas Normais e Dumps_
 - [x] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [x] 22-3: _[Projeto - One For All]()_
 
-##### Bloco 23: IntroduÃ§Ã£o - NoSQL
+##### Bloco 23: IntroduÃ§Ã£o - NoSQL :rocket:
 
 - [x] 23-1: _MongoDB - Introdução_
 - [x] 23-2: _Filter Operators_
 - [x] 23-3: _[Projeto - Data Flights]()_
 
-##### Bloco 24: Updates
+##### Bloco 24: Updates :rocket:
 
 - [x] 24-1: _Updates Simples_
 - [x] 24-2: _Updates Complexos - Arrays - Parte 1_
 - [x] 24-3: _Updates Complexos - Arrays - Parte 2_
 - [x] 24-4: _[Projeto - Commerce]()_
 
-##### Bloco 25: Aggregation Framework
+##### Bloco 25: Aggregation Framework :rocket:
 
 - [x] 25-1: _Aggregation Framework - Part 1_
 - [x] 25-2: _Aggregation Framework - Part 2_
 - [x] 25-3: _[Projeto - Aggregations]()_
 
-##### Bloco 26: Intro - NodeJS
+##### Bloco 26: Intro - NodeJS :rocket:
 
 - [x] 26-1: _NodeJS - Introdução_
 - [x] 26-2: _NodeJS - Fluxo Assíncrono_
 - [x] 26-3: _NodeJS - Arquitetura_
 - [x] 26-4: _[Projeto - A CLI of Ice and Fire]()_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: NodeJS :rocket:
 
 - [x] 27-1: _Express: HTTP com Node.js_
 - [x] 27-2: _Arquitetura de Software - Introdução ao MVC_
 - [x] 27-3: _[Projeto - Cookmaster]()_
-
-##### Bloco 28: NodeJS
+ 
+##### Bloco 28: NodeJS :rocket:
 
 - [x] 28-1: _Arquitetura de Software - Camada de Serviço_
 - [x] 28-2: _Arquitetura web - Rest e Restful_
 - [x] 28-3: _[Projeto - Store Manager]()_
 
-##### Bloco 29: NodeJS
+##### Bloco 29: NodeJS :rocket:
 
 - [x] 29-1: _NodeJS - JWT - (JSON Web Token)_
 - [x] 29-2: _NodeJS - Upload de arquivos com Multer_
 - [x] 29-3: _[Projeto - Cookmaster V2]()_
 
-##### Bloco 30: IntroduÃ§Ã£o - Deploy
+##### Bloco 30: IntroduÃ§Ã£o - Deploy :rocket:
 
 - [x] 30-1: _Infraestrutura - Deploy com Heroku_
 - [x] 30-2: _Deploy - Gerenciadores de Processos_
 - [x] 30-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 31: Projeto
+##### Bloco 31: Projeto :rocket:
 
 - [x] 31-1: _[Projeto - Trybeer]()_
 
-##### Bloco 32: Arquitetura de Software
+##### Bloco 32: Arquitetura de Software :rocket:
 
 - [x] 32-1: _Arquitetura - Princípios SOLID_
 - [x] 32-2: _ORM - Interface da aplicação com o banco de dados_
@@ -233,13 +233,13 @@ The program counts with more than 1.500 of in-class and online class hours, abor
 - [x] 32-4: _Boas práticas na escrita de testes_
 - [x] 32-3: _[Projeto - API de Blogs]()_
 
-##### Bloco 33: Sockets
+##### Bloco 33: Sockets :rocket:
 
 - [x] 30-1: _Sockets - TCP/UDP & NET_
 - [x] 30-2: _Sockets - Socket.io_
 - [x] 30-3: _[Projeto - Webchat]()_
 
-##### Bloco 34: Projeto
+##### Bloco 34: Projeto 
 
 - [ ] 34-1: _[Projeto - Trybeer V2]()_
 
