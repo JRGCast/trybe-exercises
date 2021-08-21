@@ -35,7 +35,7 @@ mailer = Mailer(
 )
 
 ## Parte 2
-![Exemplo-classes](fixation/exemplos-de-classes.png)
+![Exemplo-classes](./exemplos-de-classes.png)
 
 Nesse exemplo criamos uma instância de um gerenciador de email com as informações passadas por parâmetro.
 ### Atributo
