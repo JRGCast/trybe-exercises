@@ -1,0 +1,9 @@
+Feito o exercício, imagine que sua liderança técnica vai fazer uma Code Review do seu código e te faz algumas perguntas:
+1. Para adicionar a funcionalidade você precisou mudar a assinatura (nome e parâmetros) de alguma função? Se sim, você vai precisar mudar todos os códigos que usam essa função, então não podemos fazer isso sem gerar muito retrabalho! Não podemos fazer a mudança assim.
+2. Os nomes das suas funções ainda estão coerentes? Por exemplo, se uma se chama serialize_csv , a outra deve se chamar serialize_json . Chamá-la só de serialize é confuso - se temos mais de uma serialização, a serialize é qual delas?!
+3. Você criou uma nova classe ? Se sim, ela duplicou alguma lógica? Se duplicou, por exemplo, a lógica de construção do relatório, na função build , não rola ❌!
+4. Você mudou o nome da classe? Se sim, voltamos ao problema de modificar código já existente. Não dá!
+Se você fez qualquer uma das coisas acima , a sua solução trará problemas! Ou você precisará alterar várias partes do código para adicionar sua funcionalidade - o que dá muito trabalho e aumenta a chance de se ter bugs - ou você duplicou lógica e deixou seus nomes confusos.
+Não parece ter como sair dessa enrascada, não é? Seu código foi bom para a demanda inicial, mas, agora, te gerou problemas. Você precisará, necessariamente, refatorá-lo para introduzir uma nova funcionalidade. A missão, então, é outra: você vai refatorar o código que escreveu para que, no final, quaisquer extensões possam ser feitas sem modificar o código já existente! Um trabalho de criação de nova funcionalidade que, no futuro, poderia durar várias horas, virará um trabalho de minutos!
+Como fazer isso? Como eu escrevo um código aberto para extensões, mas fechado para modificações?!
+Para o nosso caso, a chave da questão é usar um dos grandes pilares da Programação Orientada a Objetos! Falamos de abstração, encapsulamento... e agora vamos falar de Herança
