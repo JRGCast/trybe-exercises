@@ -7,3 +7,13 @@ Se você fez qualquer uma das coisas acima , a sua solução trará problemas! O
 Não parece ter como sair dessa enrascada, não é? Seu código foi bom para a demanda inicial, mas, agora, te gerou problemas. Você precisará, necessariamente, refatorá-lo para introduzir uma nova funcionalidade. A missão, então, é outra: você vai refatorar o código que escreveu para que, no final, quaisquer extensões possam ser feitas sem modificar o código já existente! Um trabalho de criação de nova funcionalidade que, no futuro, poderia durar várias horas, virará um trabalho de minutos!
 Como fazer isso? Como eu escrevo um código aberto para extensões, mas fechado para modificações?!
 Para o nosso caso, a chave da questão é usar um dos grandes pilares da Programação Orientada a Objetos! Falamos de abstração, encapsulamento... e agora vamos falar de Herança
+
+Dicionário de conceitos
+
+Como você talvez esteja confuso nesse exato momento, vamos com calma! Como a Programação Orientada a Objeto tem muitos nomes e conceitos, vamos resumir aqui o que aprendemos até então.
+**Herança** : é uma forma de especializar o comportamento de uma classe com outra classe; <br>
+**Classe Abstrata** : uma classe que não pode ser instanciada. Utilizada para definir as funções comuns (nem sempre abstratas) e suas assinaturas; <br>
+**Métodos Abstratos**: um método, ou função, que precisa ser implemetado por uma classe herdeira para funcionar corretamente. Criado para definir uma Interface ; <br>
+**Interface** : conjunto de métodos que um determinado objeto "possui" - ou, o conjunto de mensagens que um objeto é capaz de entender e responder para. 
+
+O conteúdo pode ser denso! Pause e tome um café antes de voltar!
