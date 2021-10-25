@@ -8,7 +8,7 @@ class User:
       self.email = email
       self.password = password
 
-# Para invocar o método construtor, a sintaxe é NomeDaClasse(parametro 1, parametro 2)
+# Para invocar o método construtor, a sintaxe é NomeDaClasse(parametro 1, parametro 2, ...parâmetro N)
 # Repare que o parâmetro self foi pulado -- um detalhe do Python.
 meu_user = User("Valentino Trocatapa", "valentino@tinytoons.com", "Grana")
 print(meu_user)
@@ -19,4 +19,4 @@ print(meu_user.password)
 
 # PILARES DA PROGRAMAÇÃO ORIENTADA A OBJETOS: 
 # CRIAR UMA ENTIDADE => ABSTRAÇÃO;
-# NÃO PRECISO SABER COMO FUNCIONA => ENCAPSULAMENTO;
+# NÃO PRECISO SABER COMO FUNCIONA (apenas o que recebe e o que 'cospe') => ENCAPSULAMENTO;

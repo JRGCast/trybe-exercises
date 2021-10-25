@@ -12,7 +12,7 @@ class SalesReport(ABC):
         self.export_file = export_file
 
     def build(self):
-        """ Aqui colocamos a lógica para a entidade 'se criar',
+        """ Aqui colocamos a lógica para a entidade 'se autocriar',
          ou seja, criar um relatório imprimível. Por simplicidade,
          vamos omitir essa lógica nos exemplos! """
         return [{'Coluna 1': 'Dado 1',
